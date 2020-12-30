@@ -27,7 +27,6 @@ def show_form():
 @app.route('/add_data', methods = ['POST'])
 def write_data():
     p2 = request.form['two']
-    print(p2)
     client.publish("inTopic", p2)
     flash('New post was successfully posted')
     return redirect(url_for('show_form'))
