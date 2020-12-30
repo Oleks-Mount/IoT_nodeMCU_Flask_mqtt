@@ -22,7 +22,7 @@ https://www.tinkercad.com/things/56lrFg5FXwh-copy-of-laba11/editel?sharecode=Ac7
 
 
 
-#Third step
+# Third step
 We create a  server with the help of a **python** and a framework **Flask**.In this project it will be the basic widgets created in the  **html** and **css**.
 Also with the help of a **python** we connect to the server **mqtt** using a library such as **paho.mqtt.client**
 
