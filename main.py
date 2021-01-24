@@ -4,7 +4,7 @@ import paho.mqtt.client as mqtt
 app = Flask(__name__)
 app.config.from_object(__name__)
 
-broker_address = "192.168.1.14"
+broker_address = "#"
 
 client = mqtt.Client("P1")
 

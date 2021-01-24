@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-int data  = D2;   
-int set = D4;  
-int clockPin = D3; 
+int data  = D2;    //pin in nodeMCU
+int set = D4;  //pin in nodeMCU
+int clockPin = D3; //pin in nodeMCU
 
 byte path[10] = { 0b11111100, 0b01100000, 0b11011010, 0b11110010, 0b01100110,
                   0b10110110, 0b10111110, 0b11100000, 0b11111110, 0b11110110};
