@@ -18,7 +18,7 @@ mosquitto_sub  -t hello/world
 I do  for this project not use the function **shiftOut**.The server for the microcontroller NodeMCU is written in C ++ using the **PubSubClient** library.
 
 Circuit diagrams:
-https://www.tinkercad.com/things/56lrFg5FXwh-copy-of-laba11/editel?sharecode=Ac7eZ2wCjRrfBJw_7wlBIeuYghkJ-SPpQ8-TkekAa7g
+https://www.tinkercad.com/things/56lrFg5FXwh
 
 
 
